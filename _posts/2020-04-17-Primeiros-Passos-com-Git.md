@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  WordPress em Vários Idiomas
+title:  Primeiros Passos com Git
 categories: [WordPress]
-excerpt: Entenda conseitos básicos sobre Git e para que ele serve.
+excerpt: Entenda conceitos básicos sobre Git e para que ele serve.
 ---
 
 Git é um **controlador de versões** bastante conhecido no mundo da tecnologia. Neste artigo veremos mais detalhes a seu respeito e como iniciar com Git.
@@ -215,5 +215,5 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 O que achou do post? Comenta aí sua dúvida ou sua crítica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUxNzEyMDJdfQ==
+eyJoaXN0b3J5IjpbLTYzNDAwODAwM119
 -->
