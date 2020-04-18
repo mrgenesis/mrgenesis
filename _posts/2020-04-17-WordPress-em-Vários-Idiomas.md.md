@@ -9,7 +9,7 @@ Se você pretender fazer um blog com mais de 3 idiomas, este post não servirá 
 
 ## Definindo idiomas
 A primeira coisa a fazer é definir um idioma padrão. Na prática, este idioma dará um auxílio na definição do idioma a ser exibido para o usuário final.
-Crie um arquivo novo para criar nossa class que dfinirá o idioma padrao bem como o idioma a ser exibido ao usuário.
+Crie um arquivo novo para criar nossa class que definirá o idioma padrão bem como o idioma a ser exibido ao usuário.
 ```php
 <?php
 class DefineIdioma
@@ -376,5 +376,5 @@ No fim das contas, a variável `valor` terá um valor semelhante a este:
 
 Estas informações serão processadas em `archive-mudaridioma.php`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MjE5MDM2NSwxNzM2MTcxNjQ5XX0=
+eyJoaXN0b3J5IjpbMzA1NzMxNzU4LDE3MzYxNzE2NDldfQ==
 -->
