@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Primeiros Passos com Git
-categories: [WordPress]
+categories: [Git]
 excerpt: Entenda conceitos básicos sobre Git e para que ele serve.
 ---
 
@@ -215,5 +215,5 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 O que achou do post? Comenta aí sua dúvida ou sua crítica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDAwODAwM119
+eyJoaXN0b3J5IjpbMTI0NDE0NzMwMCwtNjM0MDA4MDAzXX0=
 -->
