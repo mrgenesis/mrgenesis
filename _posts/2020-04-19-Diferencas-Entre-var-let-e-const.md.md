@@ -1,9 +1,9 @@
 
 ---
 layout: post
-title:  WordPress em Vários Idiomas
-categories: [WordPress]
-excerpt: Neste post me proponho a apresentar para você uma maneira simples de criar um sistema multilíngua em seu WordPress. Será fácil de criar e de gerenciar desde que você mantenha apenas dois ou três idiomas.
+title:  Diferenças entre var, let e const
+categories: [JS]
+excerpt: A declaração de variáveis em JavaScript pode ser feita usando três palavras chaves: var, let e const. Com eles, é possível escrever códigos muito mais consistentes e legíveis. Continue lendo! 
 
 ---
 
@@ -178,5 +178,5 @@ Isso nos leva a outra questão importante: declarar é diferente de atribuir. `v
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjQ3NDMxM119
+eyJoaXN0b3J5IjpbLTIwNzQ2NzkxMjJdfQ==
 -->
