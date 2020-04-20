@@ -3,6 +3,7 @@ layout: post
 title:  WordPress em Vários Idiomas
 categories: [WordPress]
 excerpt: Neste post me proponho a apresentar para você uma maneira simples de criar um sistema multilíngua em seu WordPress. Será fácil de criar e de gerenciar desde que você mantenha apenas dois ou três idiomas.
+
 ---
 Este post é para mostar como fazer um site/blog em WordPress em vários idiomas. Não usaremos nenhum plugin, somente `PHP` e `JavaScript`. Neste artigo eu falo sobre custom taxonomy, meta box, e muito mais. Se você pretender fazer um blog com mais de 3 idiomas, talvez esta não seja a maneira mais indicada, mas vale a pena conferir a solução mostrada neste post.  
 A abordagem usada aqui é para ser implementada num tema, ou tema filho, mas nada impede que use este mesmo código num plugin. Sendo assim, ao fim deste artigo você terá criado o seguinte em seu tema:
@@ -477,5 +478,5 @@ Estas informações serão processadas em  `archive-mudaridioma.php`.
 
 Comente o que você achou do post
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczMjMwMDddfQ==
+eyJoaXN0b3J5IjpbNTM3Njc3MjUsOTczMjMwMDddfQ==
 -->
