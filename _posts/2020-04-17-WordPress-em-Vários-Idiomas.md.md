@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title:  WordPress em Vários Idiomas
@@ -476,7 +474,3 @@ No fim das contas, a variável  `link`  terá um valor semelhante a este:
 Estas informações serão processadas em  `archive-mudaridioma.php`.
 
 Comente o que você achou do post
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjcyMjE0OSwxMzYyMTY2NDY3LDE3Mz
-YxNzE2NDldfQ==
--->
