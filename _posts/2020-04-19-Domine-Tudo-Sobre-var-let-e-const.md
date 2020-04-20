@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Diferenças entre var, let e const
+title:  Domine Tudo Sobre var, let e const
 categories: [JavaScript]
 excerpt: A declaração de variáveis em JavaScript pode ser feita usando três palavras chaves var, let e const. Com eles, é possível escrever códigos muito mais consistentes e legíveis. Continue lendo! Acredito que avançaremos em conhecimentos valiosos sobre este assunto.
 ---
@@ -99,8 +99,10 @@ De forma bem resumida, funciona assim:
 // escopo Global
 console.log(varEmIf); // Output: varEmIf is not defined
 ```
-# const
+
+## const
 Funciona quase igual `let` com a diferença de que o valor em `const` não pode ser mudado. Veja:
+
 ```js
 const nome = "João";
 nome = "Maria";
@@ -111,7 +113,10 @@ if(true) {
 }
 console.log(teste); // Uncaught ReferenceError: teste is not defined
 ```
+
 Então se você precisa mudar o valor de uma determinada variável use `let`, porque `const` não permitirá alterações. Tem uma exceção: se você **trocar apenas a propriedade** de  um objeto.
+
+
 ```js
 const obj = {
 	nome: "Maria",
@@ -120,6 +125,7 @@ const obj = {
 obj.sobrenome = "Sousa Silva";
 console.log(obj.sobrenome); // Output: Sousa Silva
 ```
+
 ## Chaves
 Quando estiver escrevendo código, há situações em que você poderá escolher entre usar ou não chaves `{}`. Figuras respeitadas no mundo da programação desencorajam o uso abreviado do `if` (single-statement context). O livro *Padrões JavaScript*, página 42, é um exemplo disso. lá é feita uma forte recomendação que se use as chaves, mesmo se o código em `if` tiver apenas uma linha. Não use single-statement context!
 
