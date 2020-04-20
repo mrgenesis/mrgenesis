@@ -126,11 +126,7 @@ Você vai perceber que abrirá uma tela preta, a mesma usada para configurar os 
 
 Vai ver que será iniciado um repositório vazio, e uma pasta com nome .git será criada. Isto significa que o GIT já está monitorando seu projeto, mas para que isso ocorra de forma efetiva, escreva no terminal o seguinte: `git add .` (**tem um ponto no final**). Depois escreva: `git commit -m "primeiro commit."`
 
-{% blockquote %}
-
-Pasta e arquivos que começam com "." (ponto) são ocultos. É preciso habilitar a visualização em opções.
-
-{% endblockquote %}
+> Pasta e arquivos que começam com "." (ponto) são ocultos. É preciso habilitar a visualização em opções.
 
   
 
