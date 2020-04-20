@@ -82,8 +82,8 @@ Você deve ter se apercebido até aqui de que a diferença entre `var` e `let` �
 
 #### let vs var
 De forma bem resumida, funciona assim: 
-1 - tudo dentro de chaves `{}` declarado com `let` só vai funcionar lá dentro
-2 - Com `var` é diferente:
+1. tudo dentro de chaves `{}` declarado com `let` só vai funcionar lá dentro
+2. Com `var` é diferente:
 	- em `function(){}` funciona de forma privada igual `let`
 	- em `if, else, for, while, switch, try`, vai vazar para o escopo de fora
 ```js
@@ -175,5 +175,5 @@ Isso nos leva a outra questão importante: declarar é diferente de atribuir. `v
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzkzMDU5NjRdfQ==
+eyJoaXN0b3J5IjpbLTgwMTY4MDUzMiwtMTk3OTMwNTk2NF19
 -->
