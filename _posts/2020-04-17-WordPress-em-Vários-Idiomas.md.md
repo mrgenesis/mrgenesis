@@ -6,7 +6,8 @@ excerpt: Neste post me proponho a apresentar para você uma maneira simples de c
 ---
 Este post é para mostar como fazer um site/blog em WordPress em vários idiomas. Não usaremos nenhum plugin, somente `PHP` e `JavaScript`. Neste artigo eu falo sobre custom taxonomy, meta box, e muito mais. Se você pretender fazer um blog com mais de 3 idiomas, talvez esta não seja a maneira mais indicada, mas vale a pena conferir a solução mostrada neste post.  
 A abordagem usada aqui é para ser implementada num tema, ou tema filho, mas nada impede que use este mesmo código num plugin. Sendo assim, ao fim deste artigo você terá criado o seguinte em seu tema:
-**Arquivos**:
+
+#### Arquivos:
 
 1.  `DefineIdioma.php`  
     A classe para definir as variáveis  `IDIOMA_PADRAO`  e  `IDIOMA`
@@ -14,7 +15,8 @@ A abordagem usada aqui é para ser implementada num tema, ou tema filho, mas nad
     O código JavaScript para gerar um link que direciona o usuário entre os contúdos de idiomas diferente
 3.  `archive-mudaridioma.php`  
     O código que processa as informações geradas pelo JavaScript e pesquisa no Banco de Dados qual o conteúdo relacionado no idioma solicitado
-**Recursos**:
+
+#### Recursos:
 
 1.  Nova categoria  `idiomas`  
     Esta cotegoria vai ficar disponível em  `post`  e  `page`
@@ -474,3 +476,6 @@ No fim das contas, a variável  `link`  terá um valor semelhante a este:
 Estas informações serão processadas em  `archive-mudaridioma.php`.
 
 Comente o que você achou do post
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTczMjMwMDddfQ==
+-->
