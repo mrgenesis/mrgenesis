@@ -2,9 +2,8 @@
 layout: post
 title:  Diferenças entre var, let e const
 categories: [JavaScript]
-excerpt: A declaração de variáveis em JavaScript pode ser feita usando três palavras chaves: `var`, `let` e `const`. Com eles, é possível escrever códigos muito mais consistentes e legíveis. Continue lendo! Acredito que avançaremos em conhecimentos valiosos sobre este assunto.
+excerpt: A declaração de variáveis em JavaScript pode ser feita usando três palavras chaves: var, let e const. Com eles, é possível escrever códigos muito mais consistentes e legíveis. Continue lendo! Acredito que avançaremos em conhecimentos valiosos sobre este assunto.
 ---
-
 
 A declaração de variáveis em JavaScript pode ser feita usando três palavras chaves: `var`, `let` e `const`.
 Mas, o que é uma variável e o que significam essas três palavras? De forma resumida uma variável é um **nome que representa um valor**. Exemplo:
@@ -16,7 +15,6 @@ No exemplo acima vimos como declarar uma variável e atribuir um valor a ela. Ne
 A princípio, a maneira de declarar variáveis é essa, e você poderia fazer assim em todas as variáveis do seu código. Mas isso seria um grande equívoco, porque `let` e `const` proporcionariam recursos excelentes. Com eles, é possível escrever códigos muito mais consistentes e legíveis. Continue lendo! Acredito que avançaremos em conhecimentos valiosos sobre este assunto.
 
 #### Fazer resumo do que será falado (O que vamos ver)
-
 
 
 
@@ -182,5 +180,5 @@ Isso nos leva a outra questão importante: declarar é diferente de atribuir. `v
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTg1MzcwN119
+eyJoaXN0b3J5IjpbMTkxMjQ5NDk3LDE3MjU4NTM3MDddfQ==
 -->
