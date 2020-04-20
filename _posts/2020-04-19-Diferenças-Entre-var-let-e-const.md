@@ -100,7 +100,7 @@ De forma bem resumida, funciona assim:
 console.log(varEmIf); // Output: varEmIf is not defined
 ```
 # const
-Funciona quase igual `let` com a diferença que o valor em `const` não pode ser mudado. Veja:
+Funciona quase igual `let` com a diferença de que o valor em `const` não pode ser mudado. Veja:
 ```js
 const nome = "João";
 nome = "Maria";
@@ -175,5 +175,5 @@ Isso nos leva a outra questão importante: declarar é diferente de atribuir. `v
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTY4MDUzMiwtMTk3OTMwNTk2NF19
+eyJoaXN0b3J5IjpbLTE3MDcyMDU3LC0xOTc5MzA1OTY0XX0=
 -->
