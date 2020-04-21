@@ -64,7 +64,7 @@ Não é legal criar variáveis no escopo global, porque você pode sobrescrever 
 
 ## let
 
-A expressão `let` surgiu de um conceito matemático, na linguagem [Logic of Computer Functions](https://en.wikipedia.org/wiki/Let_expression#History "Logic of Computer Functions"): uma etapa da evolução de cálculos lambda, [Dana Scott, nascido em 1932](https://en.wikipedia.org/wiki/Dana_Scott "Dana Scott, nascido em 1932"). A ideia era definir um escopo limitado àquela função para que a variável se tornasse apenas local.
+A expressão `let` surgiu de um conceito matemático, na linguagem <a target="_blank" title="Logic of Computer Functions" href="https://en.wikipedia.org/wiki/Let_expression#History">Logic of Computer Functions</a>: uma etapa da evolução de cálculos lambda, <a title="Dana Scott, nascido em 1932" target="_blank" href="https://en.wikipedia.org/wiki/Dana_Scott">Dana Scott, nascido em 1932</a>. A ideia era definir um escopo limitado àquela função para que a variável se tornasse apenas local.
 
 Declarando uma variável com `let` dentro de `if`, o valor fica somente em `if`. Veja:
 ```js
@@ -167,7 +167,7 @@ let myArray = [],
 
 
 Note que quando não tenho uma valor a ser atribuído, eu indico o que será minha variável, por meio de atribuição de valores vazios: `[]` e `0`.
-Esta prática resolve ainda outro problema de legibilidade que [as declarações de variáveis são processadas antes de qualquer outro código ser executado](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/var#Description), e isso causa uns comportamentos meio estranhos. Veja:
+Esta prática resolve ainda outro problema de legibilidade que <a target="_blank" title="as declarações de variáveis são processadas antes de qualquer outro código ser executado" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/var#Description">as declarações de variáveis são processadas antes de qualquer outro código ser executado</a>, e isso causa uns comportamentos meio estranhos. Veja:
 ```js
 console.log(a); // Output: undefined
 let a = 4;
