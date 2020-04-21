@@ -85,7 +85,10 @@ De forma bem resumida, funciona assim:
 1. tudo dentro de chaves `{}` declarado com `let` só vai funcionar lá dentro
 2. Com `var` é diferente:
 	- em `function(){}` funciona de forma privada igual `let`
-	- em `if, else, for, while, switch, try`, vai vazar para o escopo de fora
+	- em `if, else, for, while, switch, try`, vai vazar para o **escopo de fora**
+
+Compare `let` e `var` no exemplo abaixo:
+
 ```js
 (function(){
 	// escopo de fora do if
