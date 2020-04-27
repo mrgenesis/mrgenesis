@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: defaultpage
 permalink: /categories/
 title: Categories
 ---
@@ -22,3 +22,6 @@ title: Categories
   </div>
 {% endfor %}
 </div>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTc5OTkyMTE5M119
+-->
