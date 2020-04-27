@@ -160,7 +160,7 @@ Página 30 do livro "*JavaScript Patterns*, por Stoyan Stefanov (O'Reylly). Todo
 ```js
 let myArray = [],
 	count = 0,
-	max = document.querySelectorAll("#id");
+	max = document.querySelectorAll("#id").length;
 
 // Codes	
 ```
@@ -189,6 +189,6 @@ let b = 10;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDUwMTMxMCwxNjA5MTE4MDM1LC0xNz
+eyJoaXN0b3J5IjpbLTcxMTEzMjY5NCwxNjA5MTE4MDM1LC0xNz
 A3MjA1N119
 -->
