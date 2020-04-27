@@ -164,7 +164,11 @@ let myArray = [],
 
 // Codes	
 ```
+---
 
+Declarar é diferente de atribuir. `var`, `let` e `const` servem para declarar uma variável e o sinal de igual `=` para atribuir valores. `const` força você declarar e atribuir ao mesmo tempo
+
+---
 
 Note que quando não tenho uma valor a ser atribuído, eu indico o que será minha variável, por meio de atribuição de valores vazios: `[]` e `0`.
 Esta prática resolve ainda outro problema de legibilidade que <a target="_blank" title="as declarações de variáveis são processadas antes de qualquer outro código ser executado" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/var#Description">as declarações de variáveis são processadas antes de qualquer outro código ser executado</a>, e isso causa uns comportamentos meio estranhos. Veja:
@@ -182,12 +186,9 @@ console.log(b); //Cannot access 'a' before initialization
 let b = 10;
 ```
 
----
 
-declarar é diferente de atribuir. `var`, `let` e `const` servem para declarar uma variável e o sinal de igual `=` para atribuir valores. `const` força você declarar e atribuir ao mesmo tempo
 
----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0MDAyOTk2LDE2MDkxMTgwMzUsLTE3MD
-cyMDU3XX0=
+eyJoaXN0b3J5IjpbLTQ3MDUwMTMxMCwxNjA5MTE4MDM1LC0xNz
+A3MjA1N119
 -->
