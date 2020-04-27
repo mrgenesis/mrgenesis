@@ -170,7 +170,7 @@ Note que quando não tenho uma valor a ser atribuído, eu indico o que será min
 Esta prática resolve ainda outro problema de legibilidade que <a target="_blank" title="as declarações de variáveis são processadas antes de qualquer outro código ser executado" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/var#Description">as declarações de variáveis são processadas antes de qualquer outro código ser executado</a>, e isso causa uns comportamentos meio estranhos. Veja:
 ```js
 console.log(a); // Output: undefined
-let a = 4;
+var a = 4;
 ```
 Antes de executar o código, o compilador avalia o código e identifica a declaração da variável; então atribui o valor `undefaned`. Na hora da execução, foi realizado o acesso a ela antes da atribuição do valor.
 O **comportamento natural** seria o mostrado abaixo:
@@ -185,5 +185,5 @@ Isso nos leva a outra questão importante: declarar é diferente de atribuir. `v
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDcyMDU3XX0=
+eyJoaXN0b3J5IjpbMTIwODg5ODI2MywtMTcwNzIwNTddfQ==
 -->
