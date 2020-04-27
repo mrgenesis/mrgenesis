@@ -34,6 +34,7 @@ var mundo = "Variável Global";
 }());
 ```
 Então, grave isto: _quem está dentro consegue ver quem está fora, mas quem está fora não consegue ver quem está dentro_.
+Isso ocorre porque é procurado aquela variável no escopo atual e em se
 
 ---------
 
@@ -188,6 +189,6 @@ let b = 10;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDU4NjA4MywxNjA5MTE4MDM1LC0xNz
-A3MjA1N119
+eyJoaXN0b3J5IjpbLTExMTU4NTQ0NzIsMTYwOTExODAzNSwtMT
+cwNzIwNTddfQ==
 -->
