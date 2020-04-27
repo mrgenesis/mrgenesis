@@ -51,9 +51,9 @@ for (var i = 0; i < 5; i++) {
 console.log(i); // 4
 
 if(true) {
-	var varialvel = "Dentro do if";
+	var variavel = "Dentro do if";
 }
-console.log(varialvel); // Dentro do if
+console.log(variavel); // Dentro do if
 ```
 Note no exemplo acima que após executar o `for` e `if`, teremos `i` e `variavel` disponíveis no escopo global. O `var` somente se mantem dentro do escopo de funções.
 
@@ -189,6 +189,6 @@ let b = 10;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5ODc1MTQ0LDE2MDkxMTgwMzUsLTE3MD
-cyMDU3XX0=
+eyJoaXN0b3J5IjpbLTE4MDUzNTAxMDAsMTYwOTExODAzNSwtMT
+cwNzIwNTddfQ==
 -->
