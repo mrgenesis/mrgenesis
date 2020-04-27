@@ -48,12 +48,12 @@ Seu comportamento pode ser imprevisível. Por exemplo, é bem ruim quando temos 
 for (var i = 0; i < 5; i++) {
 	// codes
 }
-console.log(i); // Output: 4
+console.log(i); // 4
 
 if(true) {
 	var varialvel = "Dentro do if";
 }
-console.log(varialvel); // Output: Dentro do if
+console.log(varialvel); // Dentro do if
 ```
 Note no exemplo acima que após executar o `for` e `if`, teremos `i` e `variavel` disponíveis no escopo global. O `var` somente se mantem dentro do escopo de funções.
 
@@ -70,9 +70,9 @@ Declarando uma variável com `let` dentro de `if`, o valor fica somente em `if`.
 ```js
 if(true) {
 	let privado = "Dentro do if";
-	console.log(privado); // Output: Dentro do if
+	console.log(privado); // Dentro do if
 }
-console.log(privado); // Output: privado is not defined
+console.log(privado); // privado is not defined
 ```
 Mas quando é declarado com `var` conseguimos acessar o valor normalmente.
 Lembre-se: **escopos são definidos por chaves `{}`**.
@@ -96,11 +96,11 @@ Compare `let` e `var` no exemplo abaixo:
 		var varEmIf = "Var em if";
 		let letEmIf = "Let em if";
 	}
-	console.log(varEmIf); // Output: Var em if
-	console.log(letEmIf); // Output: varEmIf is not defined
+	console.log(varEmIf); // Var em if
+	console.log(letEmIf); // varEmIf is not defined
 }());
 // escopo Global
-console.log(varEmIf); // Output: varEmIf is not defined
+console.log(varEmIf); // varEmIf is not defined
 ```
 
 ## const
@@ -189,6 +189,6 @@ let b = 10;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2MzEyMTA5LDE2MDkxMTgwMzUsLTE3MD
-cyMDU3XX0=
+eyJoaXN0b3J5IjpbMTE1MjE1ODkwOCwxNjA5MTE4MDM1LC0xNz
+A3MjA1N119
 -->
