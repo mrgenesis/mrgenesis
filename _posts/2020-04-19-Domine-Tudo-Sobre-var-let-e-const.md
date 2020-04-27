@@ -154,7 +154,7 @@ if (tre) {
 ```
 Notou? Com `var` funciona, mas é desincentivado o uso. Com `let` e `const` não vai funcionar. Então se você ver o erro "`Uncaught SyntaxError: Lexical declaration cannot appear in a single-statement context`" é porque está faltando as chaves `{}`.
 
-## Declaração das variáveis
+## Declaração e Atribuição de Valores
 Um detalhe muito importante é a questão sobre como declarar as variáveis. Não espalhe declarações ao longo do código. Faça tudo d uma vez: concentre as declarações todas no início, mesmo que você não tenha um valor a ser atribuído a ela. Este princípio dá legibilidade para o seu código. 
 Página 30 do livro "*JavaScript Patterns*, por Stoyan Stefanov (O'Reylly). Todos os direitos reservados 2010 Yahoo!, 9780596806750".
 ```js
@@ -173,7 +173,7 @@ console.log(a); // Output: undefined
 var a = 4;
 ```
 Antes de executar o código, o compilador avalia o código e identifica a declaração da variável; então atribui o valor `undefaned`. Na hora da execução, foi realizado o acesso a ela antes da atribuição do valor.
-O **comportamento natural** seria o mostrado abaixo:
+O **comportamento natural** seria mostrar um erro. Este problema é resolvido com
 ```js
 console.log(a); // ReferenceError: a is not defined
 ```
@@ -185,5 +185,5 @@ Isso nos leva a outra questão importante: declarar é diferente de atribuir. `v
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzI1NjM5MiwtMTcwNzIwNTddfQ==
+eyJoaXN0b3J5IjpbMTcyNjU4MDM5MywtMTcwNzIwNTddfQ==
 -->
