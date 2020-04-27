@@ -177,7 +177,7 @@ O **comportamento natural** seria o mostrado abaixo:
 ```js
 console.log(a); // ReferenceError: a is not defined
 ```
-Isso nos leva a outra questão importante: declarar é diferente de atribuir. `var` e `let` servem para declarar uma variável e sinal igual `=` para atribuir valores.
+Isso nos leva a outra questão importante: declarar é diferente de atribuir. `var`, `let` e `const` servem para declarar uma variável e o sinal de igual `=` para atribuir valores.
 
 ---
 
@@ -185,5 +185,5 @@ Isso nos leva a outra questão importante: declarar é diferente de atribuir. `v
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODg5ODI2MywtMTcwNzIwNTddfQ==
+eyJoaXN0b3J5IjpbMTY5MzI1NjM5MiwtMTcwNzIwNTddfQ==
 -->
