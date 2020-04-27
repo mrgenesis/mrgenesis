@@ -97,7 +97,7 @@ Compare `let` e `var` no exemplo abaixo:
 		let letEmIf = "Let em if";
 	}
 	console.log(varEmIf); // Var em if
-	console.log(letEmIf); // varEmIf is not defined
+	console.log(letEmIf); // letEmIf is not defined
 }());
 // escopo Global
 console.log(varEmIf); // varEmIf is not defined
@@ -189,6 +189,6 @@ let b = 10;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjE1ODkwOCwxNjA5MTE4MDM1LC0xNz
-A3MjA1N119
+eyJoaXN0b3J5IjpbOTk5ODc1MTQ0LDE2MDkxMTgwMzUsLTE3MD
+cyMDU3XX0=
 -->
