@@ -181,14 +181,13 @@ let a = 10;
 console.log(b); //Cannot access 'a' before initialization
 let b = 10;
 ```
-Isso nos leva a outra questão importante: declarar é diferente de atribuir. `var`, `let` e `const` servem para declarar uma variável e o sinal de igual `=` para atribuir valores.
 
 ---
 
-`const` força você declarar e atribuir ao mesmo tempo
+declarar é diferente de atribuir. `var`, `let` e `const` servem para declarar uma variável e o sinal de igual `=` para atribuir valores. `const` força você declarar e atribuir ao mesmo tempo
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4OTAxMjk5LDE2MDkxMTgwMzUsLTE3MD
+eyJoaXN0b3J5IjpbOTM0MDAyOTk2LDE2MDkxMTgwMzUsLTE3MD
 cyMDU3XX0=
 -->
