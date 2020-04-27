@@ -11,7 +11,7 @@ var nome = "valor da variável";
 console.log(nome); // Output: valor da variável
 ```
 No exemplo acima vimos como declarar uma variável e atribuir um valor a ela. Neste caso, estamos dizendo que a palavra `nome` representa o valor  "valor da variável". Fácil, né?
-A princípio, a maneira de declarar variáveis é essa, e você poderia fazer assim em todas as variáveis do seu código. Mas isso seria um grande equívoco, porque `let` e `const` proporcionariam recursos excelentes. Com eles, é possível escrever códigos muito mais consistentes e legíveis. Continue lendo! Acredito que avançaremos em conhecimentos valiosos sobre este assunto.
+A princípio, a maneira de declarar variáveis é essa, e você poderia fazer assim em todas as variáveis do seu código. Mas isso seria um grande equívoco, porque `let` e `const` proporcionariam recursos excelentes. Com eles, é possível escrever códigos muito mais consistentes e legíveis. Continue lendo! Acredito que avançaremos em conhecimentos valiosos sobre este assunto. E você v
 
 ## Escopo - Contexto léxico
 Não conseguimos falar de variáveis sem falar em escopo ou contexto léxico. Então você precisa entender bem esta questão para assim conseguir diferenciar `var`, `let` e `const`. Para ilustrar, **escopo é como se fosse um território**. *Você não vai conseguir votar nas eleições canadenses usando um Título de Eleitor brasileiro*. Da mesma forma se tentar acessar o valor de uma variável que está fora do escopo (em outro território) não vai dar certo.
@@ -170,7 +170,7 @@ Declarar é diferente de atribuir. `var`, `let` e `const` servem para declarar u
 
 ---
 
-Note que quando não tenho uma valor a ser atribuído, eu indico o que será minha variável, por meio de atribuição de valores vazios: `[]` e `0`.
+Note que quando não tenho um valor a ser atribuído, eu indico o que será minha variável, por meio de atribuição de valores vazios: `[]` e `0`.
 Esta prática resolve ainda outro problema de legibilidade que <a target="_blank" title="as declarações de variáveis são processadas antes de qualquer outro código ser executado" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/var#Description">as declarações de variáveis são processadas antes de qualquer outro código ser executado</a>, e isso causa uns comportamentos meio estranhos. Veja:
 ```js
 console.log(a); // Output: undefined
@@ -189,6 +189,6 @@ let b = 10;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDUzNTAxMDAsMTYwOTExODAzNSwtMT
-cwNzIwNTddfQ==
+eyJoaXN0b3J5IjpbMTIyMDcxMzYzMCwtMTgwNTM1MDEwMCwxNj
+A5MTE4MDM1LC0xNzA3MjA1N119
 -->
