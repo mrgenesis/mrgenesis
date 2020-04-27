@@ -22,7 +22,6 @@ Com esse principio em mente, lembre de que sempre que uma variável é criada é
 	var paisBrasil = "Brasil";
 }());
 (function canada(){ // esscopo da função {canadá}
-	var paisCanada = "Canadá";
 	console.log(paisBrasil); //paisBrasil is not defined
 }());
 ```
@@ -189,6 +188,6 @@ let b = 10;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI4MjUwNjksMTYwOTExODAzNSwtMT
-cwNzIwNTddfQ==
+eyJoaXN0b3J5IjpbLTY3MDU4NjA4MywxNjA5MTE4MDM1LC0xNz
+A3MjA1N119
 -->
