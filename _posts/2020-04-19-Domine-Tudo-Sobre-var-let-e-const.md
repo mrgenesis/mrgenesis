@@ -173,9 +173,10 @@ console.log(a); // Output: undefined
 var a = 4;
 ```
 Antes de executar o código, o compilador avalia o código e identifica a declaração da variável; então atribui o valor `undefaned`. Na hora da execução, foi realizado o acesso a ela antes da atribuição do valor.
-O **comportamento natural** seria mostrar um erro. Este comportamento estranho é resolvido com `let`e `const`. Na questão do exemplo acima o compilador coloca a variável como se fosse numa zona inacessível faz
+O **comportamento natural** seria mostrar um erro. Este comportamento estranho é resolvido com `let`e `const`. Na questão do exemplo acima o compilador coloca a variável como se fosse numa zona inacessível fazendo com que o código se comporte naturalmente:
 ```js
-console.log(a); // ReferenceError: a is not defined
+console.log(a); // ReferenceError: Cannot access 't' before initialization
+let a = 10;
 ```
 Isso nos leva a outra questão importante: declarar é diferente de atribuir. `var`, `let` e `const` servem para declarar uma variável e o sinal de igual `=` para atribuir valores.
 
@@ -185,5 +186,5 @@ Isso nos leva a outra questão importante: declarar é diferente de atribuir. `v
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTYwNDkzMiwtMTcwNzIwNTddfQ==
+eyJoaXN0b3J5IjpbMTQ0NzczNjkyMywtMTcwNzIwNTddfQ==
 -->
