@@ -2,7 +2,7 @@
 layout: post
 title:  return de Funções
 categories: [JavaScript]
-excerpt: Ele faz uma function se tornar uma variável: isso faz um valor interno se tronar público. Ele serve para PARAR o processamento de uma function. Ele faz as duas coisas ao mesmo tempo.
+excerpt: Ele faz uma function se tornar uma variável, e isso faz um valor interno se tronar público. Serve para PARAR o processamento de uma function. Também faz as duas coisas ao mesmo tempo.
 
 ---
 
