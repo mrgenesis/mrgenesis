@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title:  return de Funções
 categories: [JavaScript]
 excerpt: Ele faz uma function se tornar uma variável: isso faz um valor interno se tronar público. Ele serve para PARAR o processamento de uma function. Ele faz as duas coisas ao mesmo tempo.
+
 ---
 
 Antes de entrarmos em detalhes, vou ilustrar o assunto para ficar fácil de entender. Saia um pouco do campo da tecnologia e volte para o mundo real. Aliás, as coisas virtuais foram copiadas do mundo real. 
@@ -85,5 +85,5 @@ Observe que no exemplo acima paramos o `loop` e ao mesmo tempo atribuímos o val
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzAwNzcyMl19
+eyJoaXN0b3J5IjpbOTE0NTg2NDkwXX0=
 -->
