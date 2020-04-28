@@ -76,7 +76,7 @@ let idx = (function(x){
 	}
 	return "A soma não atingiu o valor de 100.";
 }([95, 9, 1, 0, 9, 50, 0, 5]));
-console.log(idx); // 1.
+console.log(idx); // 1
 ```
 Observe que no exemplo acima paramos o `loop` e ao mesmo tempo atribuímos o valor a `idx`.
 
@@ -84,5 +84,5 @@ Observe que no exemplo acima paramos o `loop` e ao mesmo tempo atribuímos o val
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTIxNTk3NF19
+eyJoaXN0b3J5IjpbLTM3MzMzNTY0MF19
 -->
