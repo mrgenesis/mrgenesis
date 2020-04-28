@@ -5,6 +5,7 @@ title:  return de Funções
 categories: [JavaScript]
 excerpt: Ele faz uma function se tornar uma variável: isso faz um valor interno se tronar público. Ele serve para PARAR o processamento de uma function. Ele faz as duas coisas ao mesmo tempo.
 ---
+
 Antes de entrarmos em detalhes, vou ilustrar o assunto para ficar fácil de entender. Saia um pouco do campo da tecnologia e volte para o mundo real. Aliás, as coisas virtuais foram copiadas do mundo real. 
 Pois bem, imagine que você peça a uma pessoa para ir ao açougue comprar carne. *A pessoa vai e volta com a carne e entrega nas suas mãos[1]*. Talvez você saiba como esta tarefa foi realizada, mas não sabe de todos os detalhes. A única coisa de que sabe é que a pessoa fez o que você pediu: ela te trouxe a carne. Poderíamos dar mais um outro exemplo que abrangeria todos os pontos que queremos destacar neste post. Dentro deste mesmo contexto, imagine que você peça a uma outra pessoa para levar a carne para a casa de um amigo e ela faz isto: *ela leva a carne para um amigo[2]*.
 Note que foi ilustrado duas situação:
@@ -84,5 +85,5 @@ Observe que no exemplo acima paramos o `loop` e ao mesmo tempo atribuímos o val
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzMzNTY0MF19
+eyJoaXN0b3J5IjpbLTY4NzAwNzcyMl19
 -->
