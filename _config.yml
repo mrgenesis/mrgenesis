@@ -45,8 +45,8 @@ google_analytics: UA-43339302-XX
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
-url: https://mrgenesis.net
-enforce_ssl: https://mrgenesis.net
+url: https://mrgenesis.dev
+enforce_ssl: https://mrgenesis.dev
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
